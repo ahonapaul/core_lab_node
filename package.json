@@ -1,12 +1,13 @@
 {
   "name": "package",
   "version": "1.0.0",
-  "description": "???",
+  "description": "node tutorial",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
-  "author": "",
+  "type": "module",
+  "author": "Ahona Paul",
   "license": "ISC"
 }
