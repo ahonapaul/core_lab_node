@@ -1,18 +1,18 @@
-// Import the express library and assign it to a variable
+//importing express library and assign to variable
 import express from 'express'
 
-// Create an instance of an express application 
-const app = express()
+//creating an instance of express application
+const app = express();
 
-// Set the port the application will be running on
-const port = process.env.PORT || 3001
+//setting the port the application will run on
+const port = process.env.PORT || 3001;
 
-// Set up a response for the root path of the application
-app.get('/', (req, res) => {
-  res.send("Make a shapeless blob floating through the web.")
+//setting up response for the root path of the application
+app.get('/',(req,res) => {
+  res.send("Make a shapeless blob floating through the web");
 })
 
-// Set the application to listen a port
-app.listen(port, () => {
-  console.log(`Example app listening on port ${port}` )
+//setting up application to listen on the specified port
+app.listen(port, () =>{
+  console.log(`Example app listening on port ${port}`);
 })
